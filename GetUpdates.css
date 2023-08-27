@@ -1,0 +1,21 @@
+.getUpdates {
+  width: 240px;
+  height: 50px;
+  background-color: rgb(61, 220, 132);
+  color: #000000;
+  border-radius: 15px;
+  display: flex;
+  font-weight: 500;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 22px;
+  margin-bottom: 90px;
+  padding-top: 20px;
+  transition: 0.02s;
+  padding-left: 20px;
+}
+.getUpdates:hover
+{
+  background-color:wheat;
+  color: black;
+}

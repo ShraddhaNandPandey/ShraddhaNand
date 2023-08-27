@@ -1,0 +1,311 @@
+.navigationbar{
+  padding-top: 25px;
+  background-color: var(--primary-color);
+
+  display: flex-end;
+  align-items: right;
+  justify-content: ;
+  margin-top: px;
+  height: 0px;
+ 
+  width: fill;
+  padding-left: 5px;
+  text-align: center;
+  
+  padding-bottom: 35px;
+
+  
+  
+
+}
+/*logo*/
+.logo {
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-top: 0px;
+  justify-content: flex-start;
+  
+  
+  
+ text-align: right;
+}
+.search {
+  width: 387px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #eef3f8;
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.search-text {
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 10px;
+
+  letter-spacing: -0.44px;
+  padding-left: 15px;
+}
+.search:hover
+{
+  border: 2px solid #0004ff;
+  font-weight:700px;
+}
+.nav-section {
+  display: flex;
+  margin-left: 0px;
+}
+.home {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 138px;
+  justify-content: space-evenly;
+}
+.logo {
+  color: rgb(26, 26, 27);
+  font-family: Montserrat Alternates;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 7px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+/*second-navigation*/
+
+/*main-profile*/
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+}
+.menu {
+  width: 10%;
+  background-color: var(--second-color);
+  margin-left: -5px;
+  height: 35rem;
+  border-bottom-right-radius: 15px;
+}
+.main-profile {
+  margin: 40px;
+  justify-content: center;
+  width: 80%;
+
+  background-color: var(--second-color);
+  border-radius: 20px;
+  height: auto;
+  
+}
+
+/*body*/
+body {
+  background-color: var(--primary-color);
+
+}
+
+
+header {
+ 
+  background-color: #000000;
+}
+
+
+
+
+#sun{
+   width: 3rem;
+   height: 3rem;
+
+   cursor: pointer;
+   margin-left: 7rem;
+   display: flex-end;
+   
+   
+  
+}
+
+
+
+
+
+
+/*line partiotion */
+.line{
+
+ color: white;
+}
+
+
+
+/*hamburger*/
+#hamburger{
+
+  font-size: 3.6rem;
+  color: black;
+  display: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*main page*/
+
+
+
+.home {
+  display: flex;
+  
+  justify-content: space-between;
+  margin: 65px;
+    
+}
+.home-content h3{ 
+
+  font-size: 2.0rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--third-color);
+
+
+
+
+}
+.home-content h2{ 
+
+  font-size: 2.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--third-color);
+
+
+}
+.home-content p{
+  font-size: 1rem;
+  color: var(--third-color);
+
+}
+
+
+.home-img img{
+  width: 20vw;
+  height: 35vh;
+  margin: 50px;
+}
+
+.social-media a
+{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: .2rem solid rgb(0, 255, 213);
+  border-radius:30%;
+  font-size: 2rem;
+  color: var(--icon-color);
+  margin: 2rem 1.5rem 3rem 0;
+
+}
+.social-media a :hover
+{
+  background: var(--icon-color);
+  color: white;
+  box-shadow: 0 2rem 2rem orange;
+
+}
+
+
+
+
+
+
+:root{
+  --primary-color: #edf2fc;
+  --second-color: #ffffff;
+  --third-color: black;
+  --icon-color: black;
+  
+  
+}
+
+.dark-theme {
+--primary-color: #101623;
+--second-color: #020617;
+--third-color: #a78bfa;
+--icon-color: #00d5f1;
+
+
+}
+
+
+
+/* Add styling for the work-in-progress message */
+#workInProgressMessage {
+  text-align: center;
+  font-weight: bold;
+  color: #FF5733; /* You can choose your own color */
+}
+
+
+#button2{
+  width: 5rem;
+  height: 3rem;
+}
+
+
+
+.btn{
+  display: inline-block;
+  padding: 3rem, 2.5rem;
+  background: var(--main-color);
+  border-radius: .5rem;
+  box-shadow: 0 0 1rem blue;
+  font-size: 1.5rem;
+  color: #2a98ff;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+.btn:hover{
+  box-shadow: none;
+}
+/* hire me as */
+/* Initial style for the .navigation-options */
+.navigation-options {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #810707;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Style for the .hireme-as button on hover */
+.hireme-as.button:hover .navigation-options {
+  display: block; /* Show on hover */
+}
+

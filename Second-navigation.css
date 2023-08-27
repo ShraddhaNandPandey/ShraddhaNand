@@ -1,0 +1,133 @@
+.second-navigation {
+    width: fill;
+    height: 46px;
+    background-color: var(--fourth-color);
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+  
+   
+    margin-top: 61px;
+    justify-content: space-between;
+    
+   
+  }
+  .img2 {
+  
+    border-radius: 4px;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    stroke: #dedbdb;
+    stroke-width: 2px;
+    margin-left: 50px;
+    border: 2px solid var(--round-color)
+   
+    
+  }
+  img {
+  
+    border-radius: 4px;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    stroke: #dedbdb;
+    stroke-width: 2px;
+    margin-left: 50px;
+   
+    
+  }
+  img:hover
+  {
+        
+  }
+  .hireme-as{
+    color: rgb(0, 223, 4);
+    
+    justify-content: flex-end;
+    padding-top:7px;
+    font-style: bold;
+    padding-right: 40px;
+    font-style: bold;
+    
+  }
+  button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-style: bold;
+    stroke: #0004ff;
+    font-weight: 500px;
+  }
+  button:hover
+  {
+    color : white;
+    background-color: orange;
+  }
+
+  
+ 
+  .toggle-button {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    .logo {
+      font-size: 18px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 60px;
+      left: -100%; /* Hide the navigation menu by default */
+      width: 100%;
+      background-color: #ffffff;
+      transition: left 0.3s;
+    }
+  
+    .toggle-button {
+      display: block;
+    }
+  
+    /* Show the navigation menu when the toggle button is checked */
+    #toggle-nav:checked + nav {
+      left: 0;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }
+
+
+
+
+  :root{
+    --primary-color: #edf2fc;
+    --second-color: #ffffff;
+    --third-color: black;
+    --fourth-color: #0004ff;
+    --round-color: rgb(89, 240, 89);
+    
+    
+}
+
+.dark-theme {
+  --primary-color: #101623;
+  --second-color: #020617  ;
+  --third-color: #ffffff;
+  --fourth-color: #020617
+  --round-color: #020617
+
+  ;
+
+  
+}

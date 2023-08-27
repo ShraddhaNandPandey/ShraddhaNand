@@ -1,0 +1,28 @@
+
+.about-me h2{ 
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 59, 251);
+}
+.about-me p {
+    color: var(--third-color);
+
+}
+
+:root{
+    --primary-color: #edf2fc;
+    --second-color: #ffffff;
+    --third-color: black;
+    --logo-color: black;
+    
+    
+}
+
+.dark-theme {
+    --primary-color: #101623;
+    --second-color: #0f172a;
+    --third-color: #ffff;
+    --logo-color: #ff0000;
+  
+    
+  }

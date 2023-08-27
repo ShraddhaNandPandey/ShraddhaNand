@@ -1,0 +1,32 @@
+.bottom-nav{
+    width: fill;
+    height: 100px;
+    background-color: #090818;
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+  
+    
+    
+    justify-content: space-between;
+    
+}
+.backToTop{
+    width: fill;
+    height: 30px;
+    background-color:#0004ff;;
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: white;
+    justify-content: space-between;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 15px;
+}
